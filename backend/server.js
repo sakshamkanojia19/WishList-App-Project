@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
+require("dotenv").config();
 const { PORT, MONGO_URI, CLIENT_URL } = require("./config");
 const authRoutes = require("./routes/authRoutes");
 const wishlistRoutes = require("./routes/wishlistRoutes");
@@ -17,7 +18,7 @@ const allowedOrigins = [
 
 app.use(cors({
   origin: function (origin, callback) {
-    
+
     if (!origin || allowedOrigins.includes(origin)) {
       callback(null, true);
     } else {
