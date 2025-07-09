@@ -10,6 +10,7 @@ const app = express();
 
 app.use(cors({ origin: CLIENT_URL, credentials: true }));
 app.use(express.json());
+console.log("Allowed Origin:", CLIENT_URL);
 
 app.use("/api/auth", authRoutes);
 app.use("/api/wishlists", wishlistRoutes);
