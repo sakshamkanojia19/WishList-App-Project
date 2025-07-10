@@ -25,7 +25,7 @@ Welcome to **WishlistApp** — your personal space to **save**, **share**, and *
 - **Frontend**: React, Vite, Tailwind
 - **Backend**: Node.js, Express
 - **Database**: MongoDB (via Mongoose)
-- **Deployment**: Vercel (API hosted at [wishlist-new-backend.vercel.app]
+- **Deployment**: Vercel (API hosted at [https://wish-list-app-project.vercel.app/]
 - **Auth**: JWT + Bcrypt
 - **Other**: dotenv, cors, serverless-http
 
