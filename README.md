@@ -33,13 +33,6 @@ Welcome to **WishlistApp** — your personal space to **save**, **share**, and *
 
 ## 🔧 API Endpoints
 
-### Base URL
-
-https://wishlist-new-backend.vercel.app
-
-pgsql
-Copy
-Edit
 
 ### Auth Routes
 
